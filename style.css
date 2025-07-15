@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    background-image: url('https://i.imgur.com/rmtCV9a.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #2f2f2f;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.gallery img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    font-size: 1rem;
+}
